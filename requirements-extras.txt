@@ -1,0 +1,15 @@
+# Optional extras — only needed for the things named below.
+# Install:  pip install -r requirements-extras.txt
+
+# Training your own classifier (app/train_classifier.py)
+scikit-learn>=1.3
+pandas>=2.0
+
+# Running or training a TFLite model (the app works without one, in adaptive-threshold mode)
+tensorflow>=2.15
+
+# Older arm-controller build (app/volition_main.py)
+pyserial>=3.5
+
+# Virtual Xbox-controller mode (app/main.py)
+vgamepad>=0.1.0
