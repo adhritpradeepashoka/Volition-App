@@ -2,7 +2,7 @@
 
 **Adaptive biosignal (EEG/EMG) assistive-control platform for the NPG Lite board.**
 
-Volition learns *your* resting signal level and turns deliberate gestures — a muscle flex, a jaw clench, a cheek twitch, a blink — into computer control. An optional motion sensor (IMU) adds head-movement control of smart devices. It runs on your own computer, offline.
+Volition learns *your* resting signal level and turns deliberate gestures — a muscle flex, a jaw clench, a cheek twitch, a blink — into computer control. Built in: a head-controlled **gyro keyboard** and head-pointing control of smart devices, both driven by an optional motion sensor (IMU). It runs on your own computer, offline.
 
 > Prototype for research and demonstration. Not a medical device. No clinical validation has been done.
 
@@ -109,7 +109,7 @@ Record labelled gestures first using the **data capture** panel inside Volition.
 **Make a standalone .exe (advanced).** Double-click `app\Build Volition App.bat` after finishing STEP 3. The finished program appears in `app\dist\`.
 
 **Extra hardware.**
-- *IMU / head-movement control:* needs the IMU-enabled NPG Lite firmware. Without it, Volition still works for EEG/EMG.
+- *Gyro keyboard and head-pointing control:* these are already inside the app (the **GYRO KEYBOARD** tab, and the smart-device controls). They are steered by head movement, so they need a motion sensor wired to the NPG Lite (the code is written for an MPU6500) and NPG Lite firmware that streams its readings. Without that hardware the app still works for EEG/EMG; the head-movement features simply have no motion data.
 - *Smart plugs:* Volition can control TP-Link Kasa devices on your home network.
 - *Robotic arm:* see `app/README_VOLITION.md`.
 
