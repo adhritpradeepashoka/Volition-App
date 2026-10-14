@@ -1,6 +1,6 @@
 # Volition
 
-**Adaptive biosignal (EEG/EMG) assistive-control platform for the NPG Lite board.**
+**Adaptive biosignal (EEG/EMG) assistive-control platform using the NPG Lite board.**
 
 Volition learns *your* resting signal level and turns deliberate gestures — a muscle flex, a jaw clench, a cheek twitch, a blink — into computer control. Built in: a head-controlled **gyro keyboard** and head-pointing control of smart devices, both driven by an optional motion sensor (IMU). It runs on your own computer, offline.
 
