@@ -1,3 +1,5 @@
+# Volition — Copyright (c) 2026 Adhrit Pradeep. Licensed under GPL-3.0 (see LICENSE).
+# Built on NPG-Lite-SNES by Upside Down Labs (GPL-3.0).
 """
 Volition - TFLite Classifier
 =============================

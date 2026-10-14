@@ -120,3 +120,9 @@ Nothing personal is included in this repo. Calibration and training data are sav
 ## Credits and license
 
 Built on [NPG-Lite-SNES](https://github.com/upsidedownlabs/NPG-Lite-SNES) and the NPG Lite hardware by [Upside Down Labs](https://upsidedownlabs.tech). Released under **GPL-3.0** (see `LICENSE`), the same license as the original.
+
+## Author and credits
+
+Volition was created by **Adhrit Pradeep**. Copyright (c) 2026 Adhrit Pradeep.
+
+It is built on top of the open-source NPG-Lite-SNES / NPG-LITE-BLE work by [Upside Down Labs](https://upsidedownlabs.tech) (GPL-3.0). Because of that, Volition is also released under the GNU GPL v3 (see `LICENSE`): you may use, change and share it, as long as you keep it open under the same license and keep these credits.

@@ -1,3 +1,5 @@
+// Volition firmware — Copyright (c) 2026 Adhrit Pradeep. GPL-3.0.
+// Based on the public NPG-LITE-BLE firmware architecture from Upside Down Labs.
 /*
   NPG Lite BLE + Volition IMU firmware
   -------------------------------------
