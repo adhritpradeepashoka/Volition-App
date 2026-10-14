@@ -119,7 +119,7 @@ Nothing personal is included in this repo. Calibration and training data are sav
 
 ## Credits and license
 
-Built on [NPG-Lite-SNES](https://github.com/upsidedownlabs/NPG-Lite-SNES) and the NPG Lite hardware by [Upside Down Labs](https://upsidedownlabs.tech). Released under **GPL-3.0** (see `LICENSE`), the same license as the original.
+Built (Partially) on [NPG-Lite-SNES](https://github.com/upsidedownlabs/NPG-Lite-SNES) and the NPG Lite hardware by [Upside Down Labs](https://upsidedownlabs.tech). Released under **GPL-3.0** (see `LICENSE`), the same license as the original.
 
 ## Author and credits
 
