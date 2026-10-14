@@ -6,6 +6,12 @@ Volition learns *your* resting signal level and turns deliberate gestures — a 
 
 > Prototype for research and demonstration. Not a medical device. No clinical validation has been done.
 
+## Watch the demo
+
+https://github.com/user-attachments/assets/58e0fd87-1703-4ef1-82e1-631f8643b4cb
+
+Four more short demos are in the [`demonstration-videos/`](demonstration-videos/README.md) folder.
+
 ## What's in this repo
 
 | Folder / file | What it is |
