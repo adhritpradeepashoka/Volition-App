@@ -47,15 +47,19 @@ Python is the free program that Volition runs on.
 5. **Right-click** `Volition-App-main.zip` and click **Extract All...**
 6. Click **Extract**. A normal folder called `Volition-App-main` appears.
 
+> **Careful — Windows often makes a folder inside a folder.** If you open `Volition-App-main` and see only *another* `Volition-App-main` folder, open that one too. Keep going until you see the files `README.md` and `INSTALL AND RUN VOLITION`, and the folders `app`, `demonstration-videos` and `presentations-and-essays`. **That is the right folder.**
+
 ## STEP 3 — Start Volition
 
-1. Open the new `Volition-App-main` folder.
-2. Double-click **`INSTALL AND RUN VOLITION`** (the file ending in `.bat`).
+1. Open the right folder from STEP 2 (the one that contains `app`, `README.md` and the installer file).
+2. Double-click **`INSTALL AND RUN VOLITION`** (the file ending in `.bat`). **Leave this file where it is, next to the `app` folder. Do not drag it out of the folder or move it elsewhere.** It needs the `app` folder beside it.
 3. If a blue box says **"Windows protected your PC"**: click **More info**, then click **Run anyway**. This is normal for files downloaded from the internet.
 4. A black window opens and starts downloading what Volition needs. **Wait.** The first time can take 5–10 minutes. Do not close it.
 5. When it finishes, the Volition window opens by itself.
 
 **Next time:** just double-click `INSTALL AND RUN VOLITION` again. It starts in seconds, because the setup is already done.
+
+**Want an icon on your desktop?** Right-click `INSTALL AND RUN VOLITION`, click **Show more options → Send to → Desktop (create shortcut)**. Use the shortcut to start Volition. Leave the original file where it is, because the shortcut points to it.
 
 ## STEP 4 — Connect your NPG Lite
 

@@ -8,6 +8,16 @@ echo   Volition - first-time setup and launch
 echo ============================================
 echo.
 
+if not exist "app\volition_demo_main.py" (
+    echo [PROBLEM] This file cannot find the "app" folder next to it.
+    echo.
+    echo Fix: this file must stay inside the Volition folder, in the same place as the "app" folder.
+    echo If you moved it, put it back. If you see a folder inside a folder, open the inner one.
+    echo.
+    pause
+    exit /b 1
+)
+
 python --version >nul 2>&1
 if errorlevel 1 (
     echo [PROBLEM] Python is not installed, or was installed without "Add python.exe to PATH".
