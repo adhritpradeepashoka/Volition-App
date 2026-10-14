@@ -6,6 +6,8 @@ Volition learns *your* resting signal level and turns deliberate gestures — a 
 
 > Prototype for research and demonstration. Not a medical device. No clinical validation has been done.
 
+> Built on the open-source [NPG-Lite-SNES](https://github.com/upsidedownlabs/NPG-Lite-SNES) and the NPG Lite hardware by [Upside Down Labs](https://upsidedownlabs.tech) (GPL-3.0). See [Author and credits](#author-and-credits).
+
 ## Watch the demo
 
 https://github.com/user-attachments/assets/58e0fd87-1703-4ef1-82e1-631f8643b4cb

@@ -1,7 +1,7 @@
 # NPG Lite firmware (EEG/EMG + head-movement sensor)
 
 `NPG-LITE-BLE-IMU-final/NPG-LITE-BLE-IMU-final.ino` is the sketch running on the NPG Lite used with Volition.
-It is based on the public NPG-LITE-BLE firmware architecture from Upside Down Labs and adds a motion-sensor stream.
+It is based on the public NPG-LITE-BLE firmware architecture from [Upside Down Labs](https://upsidedownlabs.tech) (GPL-3.0; see also [github.com/upsidedownlabs](https://github.com/upsidedownlabs)) and adds a motion-sensor stream.
 
 **This is the one firmware to use for everything.** It streams EEG/EMG exactly like the standard NPG Lite firmware
 (same Bluetooth name pattern, same data format), and also streams head movement if a motion sensor is plugged in.
