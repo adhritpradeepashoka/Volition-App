@@ -28,6 +28,18 @@ if errorlevel 1 (
     exit /b 1
 )
 
+python -c "import sys; sys.exit(0 if ((3,11) <= sys.version_info[:2] <= (3,13) and sys.maxsize > 2**32) else 1)"
+if errorlevel 1 (
+    echo [PROBLEM] Your Python is the wrong version. Volition needs 64-bit Python 3.11, 3.12 or 3.13.
+    echo Yours is:
+    python --version
+    echo.
+    echo Fix: follow STEP 1 in README.md to install Python 3.13, then double-click this file again.
+    echo.
+    pause
+    exit /b 1
+)
+
 if not exist ".venv\Scripts\activate.bat" (
     echo Creating a private Python folder for Volition. This happens once.
     python -m venv .venv

@@ -1,7 +1,8 @@
 # Volition — core dependencies (Windows 10/11, 64-bit Python 3.11-3.13)
+# Versions are pinned to the ones Volition was built and tested with.
 # Install:  pip install -r requirements.txt
-PySide6>=6.6
-numpy>=1.26
-bleak>=0.22
-pynput>=1.7
+PySide6==6.10.2
+numpy==2.4.3
+bleak==2.1.1
+pynput>=1.7,<2
 python-kasa>=0.7
