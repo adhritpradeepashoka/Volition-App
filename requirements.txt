@@ -1,0 +1,13 @@
+# Volition — Python dependencies (Windows 10/11, Python 3.10+)
+PySide6>=6.6
+numpy>=1.26
+bleak>=0.22
+pynput>=1.7
+python-kasa>=0.7
+pyserial>=3.5
+# vgamepad is bundled as a wheel in wheels/ — see README
+# Optional: train your own model / run the classifier
+scikit-learn>=1.3
+pandas>=2.0
+tflite-runtime; python_version < "3.12"
+tensorflow>=2.15; python_version >= "3.12"
