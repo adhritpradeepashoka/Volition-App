@@ -1,3 +1,4 @@
+# Modifications for Volition: Copyright (c) 2026 Adhrit Pradeep. Original work: Upside Down Labs (GPL-3.0); see LICENSE.
 # Constants and helpers used across the app
 
 MAX_CHANNELS = 6

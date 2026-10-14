@@ -1,3 +1,4 @@
+# Modifications for Volition: Copyright (c) 2026 Adhrit Pradeep. Original work: Upside Down Labs (GPL-3.0); see LICENSE.
 # ViGEmBus driver check/install and vgamepad setup
 
 import sys

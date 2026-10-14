@@ -1,3 +1,4 @@
+# Modifications for Volition: Copyright (c) 2026 Adhrit Pradeep. Original work: Upside Down Labs (GPL-3.0); see LICENSE.
 # Qt wrapper around ble_connection — runs BLE in a background thread,
 # emits Qt signals so the UI can react safely from the main thread.
 #

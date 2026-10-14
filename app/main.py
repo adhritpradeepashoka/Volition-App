@@ -1,3 +1,4 @@
+# Modifications for Volition: Copyright (c) 2026 Adhrit Pradeep. Original work: Upside Down Labs (GPL-3.0); see LICENSE.
 """
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
