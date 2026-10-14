@@ -77,7 +77,7 @@ Volition runs without a trained model, using automatic thresholds that adapt to 
 |---|---|
 | **"Python is not installed"** in the black window | Do STEP 1 again. Make sure you tick **"Add python.exe to PATH"** before clicking Install Now. Then double-click the `.bat` file again. |
 | **"Windows protected your PC"** | Click **More info**, then **Run anyway**. |
-| The black window closes immediately | Right-click the `.bat` file, click **Show more options → Open** if you see it, or tell us what happened by opening an Issue on this page. |
+| The black window closes immediately | Open Start, type **cmd**, and press Enter. Then drag the `.bat` file into that window and press Enter. The window now stays open so you can read the error. If it still doesn't make sense, open an **Issue** on this GitHub page and paste what it says. |
 | The download fails | Check your internet connection and double-click the `.bat` file again. It continues where it stopped. |
 | **No NPG device found** | Switch the NPG Lite off and on, check that it is charged, check that Bluetooth is on, make sure no other app is connected to it, then scan again. |
 | **Signal bars are flat, or the log says "loose electrode" / "no signal"** | Re-seat the electrodes and press them firmly on clean skin. |
