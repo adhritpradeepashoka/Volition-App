@@ -3,8 +3,12 @@
 `NPG-LITE-BLE-IMU-final/NPG-LITE-BLE-IMU-final.ino` is the sketch running on the NPG Lite used with Volition.
 It is based on the public NPG-LITE-BLE firmware architecture from Upside Down Labs and adds a motion-sensor stream.
 
-**You do NOT need this to run the app with the normal NPG Lite firmware for EEG/EMG.** You only need it if you
-want the head-movement features (GYRO KEYBOARD tab, head pointing).
+**This is the one firmware to use for everything.** It streams EEG/EMG exactly like the standard NPG Lite firmware
+(same Bluetooth name pattern, same data format), and also streams head movement if a motion sensor is plugged in.
+If no sensor is attached it just carries on with EEG/EMG normally (the serial monitor prints "No compatible MPU detected").
+So there is no need to choose between two firmwares: flash this one and use the app.
+
+> The sensor is detected only at start-up, so plug it in **before** powering the NPG Lite on (or press reset after plugging it in).
 
 ## Hardware
 - NPG Lite (ESP32-C6)

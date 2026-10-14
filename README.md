@@ -109,7 +109,7 @@ Record labelled gestures first using the **data capture** panel inside Volition.
 **Make a standalone .exe (advanced).** Double-click `app\Build Volition App.bat` after finishing STEP 3. The finished program appears in `app\dist\`.
 
 **Extra hardware.**
-- *Gyro keyboard and head-pointing control:* these are already inside the app (the **GYRO KEYBOARD** tab, and the smart-device controls). They are steered by head movement, so they need a motion sensor wired to the NPG Lite (the code is written for an MPU6500) and NPG Lite firmware that streams its readings (the firmware is in the [`firmware/`](firmware/) folder, with wiring and flashing steps). Without that hardware the app still works for EEG/EMG; the head-movement features simply have no motion data.
+- *Gyro keyboard and head-pointing control:* these are already inside the app (the **GYRO KEYBOARD** tab, and the smart-device controls). They are steered by head movement, so they need a motion sensor wired to the NPG Lite (the code is written for an MPU6500) and the Volition firmware that streams its readings. That firmware is in the [`firmware/`](firmware/) folder, with wiring and flashing steps. It also does normal EEG/EMG, so it can be the only firmware you ever flash. Without that hardware the app still works for EEG/EMG; the head-movement features simply have no motion data.
 - *Smart plugs:* Volition can control TP-Link Kasa devices on your home network.
 - *Robotic arm:* see `app/README_VOLITION.md`.
 
